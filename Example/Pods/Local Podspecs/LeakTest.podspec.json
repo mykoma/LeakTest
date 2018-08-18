@@ -1,0 +1,22 @@
+{
+  "name": "LeakTest",
+  "version": "0.1.0",
+  "summary": "A short description of LeakTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mykoma/LeakTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mykoma": "23775517@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/mykoma/LeakTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LeakTest/Classes/**/*"
+}

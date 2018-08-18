@@ -1,0 +1,27 @@
+PODS:
+  - LeakTest (0.1.0)
+  - Nimble (7.0.3)
+  - Quick (1.2.0)
+
+DEPENDENCIES:
+  - LeakTest (from `../`)
+  - Nimble (~> 7.0.2)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  LeakTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeakTest: 42726866140cd4b1900d8bc61e81ae332e4dd958
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+
+PODFILE CHECKSUM: b4e958466b0f6d701f71d2eff5b385a3223969f3
+
+COCOAPODS: 1.5.3

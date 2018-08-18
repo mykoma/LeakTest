@@ -1,0 +1,6 @@
+framework module LeakTest {
+  umbrella header "LeakTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

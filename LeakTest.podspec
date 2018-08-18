@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeakTest'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LeakTest.'
+  s.version          = '0.0.1'
+  s.summary          = 'A View, ViewController or Object memory leak check tool.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,16 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  Check the View, ViewController or Object memory is memory leak or not.
                        DESC
 
   s.homepage         = 'https://github.com/mykoma/LeakTest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mykoma' => '23775517@qq.com' }
   s.source           = { :git => 'https://github.com/mykoma/LeakTest.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.swift_version = '4.0'
+  s.module_name   = 'LeakTest'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LeakTest/Classes/**/*'
@@ -38,5 +37,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+   s.dependency 'Quick', '~> 1.2.0'
+   s.dependency 'Nimble', '~> 7.0.2'
 end
