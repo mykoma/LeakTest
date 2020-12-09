@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeakTest'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A View, ViewController or Object memory leak check tool.'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/mykoma/LeakTest'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mykoma' => '23775517@qq.com' }
-  s.source           = { :git => 'https://github.com/mykoma/LeakTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mykoma/LeakTest.git', :tag => '0.0.5' }
   s.swift_version = '5.0'
   s.module_name   = 'LeakTest'
   s.ios.deployment_target = '9.0'
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'XCTest'
-   s.dependency 'Quick', '2.2.0'
-   s.dependency 'Nimble', '8.0.4'
+  #s.frameworks = 'XCTest'
+  #s.dependency 'Quick', '2.2.0'
+  #s.dependency 'Nimble', '8.0.4'
 end
